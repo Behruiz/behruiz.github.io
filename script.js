@@ -20,7 +20,7 @@ document.getElementById("acceptBtn").addEventListener("click", function() {
 });
 
 document.getElementById("yesBtn").addEventListener("click", function() {
-    document.getElementById("responseMessage").innerHTML = "🥳 Que alegria! Mal posso esperar por essa jornada juntos! 💖";
+    document.getElementById("responseMessage").innerHTML = "🥳 Você transformou minha vida desde o momento em que começamos a nos falar. A partir de hoje, continuaremos a construir nossa história como um casal, tijolinho por tijolinho, até termos um castelo! 💖";
 });
 
 // Ajuste para celular: o botão "Não sei..." se move quando tocado
