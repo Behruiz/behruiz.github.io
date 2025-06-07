@@ -32,3 +32,8 @@ button {
     background-color: #ddd;
     position: relative;
 }
+
+/* Oculta a segunda tela no início */
+.hidden {
+    display: none;
+}
