@@ -8,15 +8,18 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>Tenho uma pergunta muito especial para você! 💕</h1>
-        <p>Você aceita namorar comigo? 😍</p>
-        
+    <div class="container" id="startScreen">
+        <h1>Preciso te fazer uma pergunta...</h1>
+        <p>Acredito que você já estivesse esperando, mas antes preciso saber se está disposta a aceitar esse chato com grande dificuldade em falar esse tipo de coisa 😅</p>
+        <button id="acceptBtn">Aceito! 💖</button>
+    </div>
+
+    <div class="container hidden" id="questionScreen">
+        <h1>Namora comigo? 😍</h1>
         <div class="buttons">
             <button id="yesBtn">Sim, claro! 💖</button>
             <button id="noBtn">Não sei... 🤔</button>
         </div>
-        
         <p id="responseMessage"></p>
     </div>
 
