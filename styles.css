@@ -33,7 +33,7 @@ button {
     position: relative;
 }
 
-/* Oculta a segunda tela no início */
+/* Oculta elementos no início */
 .hidden {
     display: none;
 }
