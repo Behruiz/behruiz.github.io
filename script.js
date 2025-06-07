@@ -2,7 +2,7 @@ document.getElementById("acceptBtn").addEventListener("click", function() {
     document.getElementById("startScreen").style.display = "none";
     document.getElementById("questionScreen").style.display = "block";
 
-    let words = ["Jujubinha","aceita", "namorar", "comigo?"];
+    let words = ["Jujubinha,","aceita", "namorar", "comigo?"];
     let index = 0;
     let questionText = document.getElementById("questionText");
 
