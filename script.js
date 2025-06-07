@@ -2,7 +2,7 @@ document.getElementById("acceptBtn").addEventListener("click", function() {
     document.getElementById("startScreen").style.display = "none";
     document.getElementById("questionScreen").style.display = "block";
 
-    let words = ["Aceita", "namorar", "comigo?"];
+    let words = ["Jujubinha","aceita", "namorar", "comigo?"];
     let index = 0;
     let questionText = document.getElementById("questionText");
 
@@ -20,7 +20,7 @@ document.getElementById("acceptBtn").addEventListener("click", function() {
 });
 
 document.getElementById("yesBtn").addEventListener("click", function() {
-    document.getElementById("responseMessage").innerHTML = "🥳 Você transformou minha vida desde o momento em que começamos a nos falar. A partir de hoje, continuaremos a construir nossa história como um casal, tijolinho por tijolinho, até termos um castelo! 💖";
+    document.getElementById("responseMessage").innerHTML = "🥳 Desde o instante mágico em que nossas palavras se cruzaram, você transformou minha vida de uma maneira sublime. Quero ser para você algo único e especial, assim como você tem sido para mim, leve como a brisa, natural como o amanhecer, e belo como um jardim em flor. A partir de hoje, seguiremos juntos, construindo nossa história com cada pequeno gesto de amor, tijolinho por tijolinho, até que nosso castelo de sonhos e doces esteja completo, onde habitaremos nossa eternidade! 💖";
 });
 
 // Ajuste para celular: o botão "Não sei..." se move quando tocado
